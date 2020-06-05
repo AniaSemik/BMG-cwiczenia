@@ -1,0 +1,243 @@
+%PDF-1.4
+%гра
+
+1 0 obj
+ << /Length 2 0 R >>
+stream
+q
+0.0 0.0 792.0 612.0 re
+W n
+
+BT
+/F05 29.2 Tf
+165.99 532.06 Td
+(Parametric Analysis for Dominujaca)  Tj
+0.000 0.000 0.000 RG
+1.20 w
+ET
+118.8 116.4 594.0 364.9 re
+S
+
+Q
+
+q
+0.0 0.0 752.4 612.0 re
+W n
+
+118.8 116.4 m
+118.8 109.1 l
+S
+
+267.3 116.4 m
+267.3 109.1 l
+S
+
+415.8 116.4 m
+415.8 109.1 l
+S
+
+564.3 116.4 m
+564.3 109.1 l
+S
+
+712.8 116.4 m
+712.8 109.1 l
+S
+
+0.000 0.000 0.000 rg
+BT
+/F04 18.2 Tf
+106.12 86.11 Td
+(0.0)  Tj
+143.43 0.00 Td
+(10.0)  Tj
+148.50 0.00 Td
+(20.0)  Tj
+148.50 0.00 Td
+(30.0)  Tj
+148.50 0.00 Td
+(40.0)  Tj
+/F05 18.2 Tf
+-405.45 -32.63 Td
+(Chromosome 1 Position (cM))  Tj
+ET
+Q
+
+q
+0.0 0.0 792.0 546.7 re
+W n
+
+118.8 207.7 m
+111.5 207.7 l
+S
+
+118.8 298.9 m
+111.5 298.9 l
+S
+
+118.8 390.1 m
+111.5 390.1 l
+S
+
+118.8 481.3 m
+111.5 481.3 l
+S
+
+BT
+/F04 18.2 Tf
+75.28 198.54 Td
+(-8.0)  Tj
+0.00 91.22 Td
+(-4.0)  Tj
+6.07 91.22 Td
+(0.0)  Tj
+0.00 91.22 Td
+(4.0)  Tj
+/F05 18.2 Tf
+0.000 1.000 -1.000 0.000 0 0 Tm
+298.87 -46.68 Td
+()  Tj
+ET
+Q
+
+q
+118.8 116.4 594.0 364.9 re
+W n
+
+1.20 w
+2.40 w
+0.700 0.500 0.500 RG
+[] 0 d
+2.40 w
+118.8 390.1 m
+193.1 390.1 l
+267.3 390.1 l
+415.8 390.1 l
+564.3 390.1 l
+712.8 390.1 l
+S
+
+0.750 0.750 0.750 RG
+[] 0 d
+2.40 w
+118.8 458.5 m
+193.1 458.5 l
+267.3 458.5 l
+415.8 458.5 l
+564.3 458.5 l
+712.8 458.5 l
+S
+
+[] 0 d
+2.40 w
+118.8 344.5 m
+193.1 344.5 l
+267.3 344.5 l
+415.8 344.5 l
+564.3 344.5 l
+712.8 344.5 l
+S
+
+0.000 0.000 0.000 RG
+[] 0 d
+2.40 w
+118.8 -22390.9 m
+193.1 398.7 l
+267.3 402.8 l
+415.8 404.5 l
+564.3 403.9 l
+712.8 402.6 l
+S
+
+Q
+
+
+endstream
+endobj
+
+2 0 obj
+ 1456 
+endobj
+
+5 0 obj
+<<
+/Type /Page 
+/Parent  4 0 R 
+/Contents  [  1 0 R  ] 
+/Resources <<
+/ProcSet  [ /PDF /Text  ]
+/Font  3 0 R 
+>>
+>>
+endobj
+
+6 0 obj
+<<
+/Author (Merlin (c) 2000-2003 Goncalo Abecasis) 
+/Subject (Automatically generated summaries) 
+/Creator (A C++ PDF Library (c) 2001 Goncalo Abecasis) 
+/CreationDate  (D:20200605) 
+>>
+endobj
+
+4 0 obj
+<<
+/Type /Pages 
+/Kids  [  5 0 R  ] 
+/Count  1 
+/MediaBox  [  0  0  792  612  ] 
+/Rotate  0 
+>>
+endobj
+
+7 0 obj
+<<
+/Type /Font 
+/Subtype /Type1 
+/BaseFont /Helvetica 
+>>
+endobj
+
+8 0 obj
+<<
+/Type /Font 
+/Subtype /Type1 
+/BaseFont /Helvetica-Bold 
+>>
+endobj
+
+3 0 obj
+<<
+/F04  7 0 R 
+/F05  8 0 R 
+>>
+endobj
+
+9 0 obj
+<<
+/Type /Catalog 
+/Pages  4 0 R 
+>>
+endobj
+
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000001526 00000 n 
+0000002148 00000 n 
+0000001883 00000 n 
+0000001549 00000 n 
+0000001681 00000 n 
+0000001995 00000 n 
+0000002069 00000 n 
+0000002196 00000 n 
+trailer
+<<
+/Size 10
+/Root 9 0 R
+/Info 6 0 R
+>>
+startxref
+2249
+%%EOF
