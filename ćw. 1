@@ -1,54 +1,7 @@
+WYNIKI Z PROGRAMU MERLIN
+
 merlin -d przyklad.dat -p przyklad.ped -m przyklad.map --model przyklad.model --positions:0,5,10,20,30,40 --pdf
 
-MERLIN 1.1.2 - (c) 2000-2007 Goncalo Abecasis
-
-References for this version of Merlin:
-
-   Abecasis et al (2002) Nat Gen 30:97-101        [original citation]
-   Fingerlin et al (2004) AJHG 74:432-43          [case selection for association studies]
-   Abecasis and Wigginton (2005) AJHG 77:754-67   [ld modeling, parametric analyses]
-   Fingerlin et al (2006) Gen Epidemiol 30:384-96 [sex-specific maps]
-   Chen and Abecasis (2007) AJHG 81:913-26        [qtl association analysis, qtl simulation]
-
-
-The following parameters are in effect:
-                     Data File :    przyklad.dat (-dname)
-                 Pedigree File :    przyklad.ped (-pname)
-            Missing Value Code :         -99.999 (-xname)
-                      Map File :    przyklad.map (-mname)
-            Allele Frequencies : ALL INDIVIDUALS (-f[a|e|f|m|file])
-                   Random Seed :          123456 (-r9999)
-
-Data Analysis Options
-         General : --error, --information, --likelihood,
-                   --model [przyklad.model]
-      IBD States : --ibd, --kinship, --matrices, --extended, --select
-     NPL Linkage : --npl, --pairs, --qtl, --deviates, --exp
-      VC Linkage : --vc, --useCovariates, --ascertainment, --unlinked [0.00]
-     Association : --infer, --assoc, --fastAssoc, --filter, --custom [cov.tbl]
-     Haplotyping : --best, --sample, --all, --founders, --horizontal
-   Recombination : --zero, --one, --two, --three, --singlepoint
-       Positions : --steps, --maxStep, --minStep, --grid, --start, --stop
-     LD Clusters : --clusters [], --distance, --rsq, --cfreq
-          Limits : --bits [24], --megabytes, --minutes
-     Performance : --trim, --noCoupleBits, --swap, --smallSwap
-          Output : --quiet, --markerNames, --frequencies, --perFamily,
-                   --pdf [ON], --tabulate, --prefix [merlin]
-      Simulation : --simulate, --reruns, --save, --trait []
-
-Estimating allele frequencies... [using all genotypes]
-   Marker1
-
-Analysis models will be retrieved from file [przyklad.model]...
-      Input: DISEASE ALLELE_FREQ PENETRANCES LABEL
-      Error: Token 'DISEASE' does not correspond to affection status in the pedigree
-      Input: Choroba 0.001 0.0,1.0,1.0 Dominujaca
-  Validated: Loaded model 'Dominujaca'
-Table processed. 1 models recognized
-
-
-Parametric Analysis, Model Dominujaca
-=======================================================
        POSITION        LOD      ALPHA       HLOD
               0  -INFINITY      0.000      0.000
               5      0.378      1.000      0.378
@@ -57,6 +10,46 @@ Parametric Analysis, Model Dominujaca
              30      0.604      1.000      0.604
              40      0.547      1.000      0.547
 
+----------------------------------------------------------
+WYNIKI POLICZONE RĘCZNIE
 
+cz.rekomb = 0
+Z(0) = -inf
+   [MERLIN: -INFINITY]
 
-Graphical output in file [merlin.pdf]
+cz.rekomb = 0.05
+Z(0.05) = log(0.05*0.95^5 / 0.5^6) = .394
+   [MERLIN: .378]
+
+cz.rekomb = 0.1
+Z(0.1) = log(0.1*0.9^5 / 0.5^6) = .577
+   [MERLIN: .557]
+   
+cz.rekomb = 0.2
+Z(0.2) = log(0.2*0.8^5 / 0.5^6) = .623
+   [MERLIN: .632]
+   dla tej wartości w obu metodach otrzymałam maksymalną wartość LOD
+   
+cz.rekomb = 0.3
+Z(0.3) = log(0.3*0.7^5 / 0.5^6) = .509
+   [MERLIN: .604]
+   
+cz.rekomb = 0.4
+Z(0.4) = log(0.4*0.6^5 / 0.5^6) = .299
+   [MERLIN: .547]
+   
+   
+----------------------
+PORÓWNANIE WYNIKÓW
+
+pozycja  LOD ręcznie  LOD z MERLINA
+0        -inf         -inf
+5        .394         .378
+10       .577         .577
+20       .623         .632
+30       .509         .604
+40       .299         .547
+
+część wartości się różni (np. w poz. 40), część jest podobna (np. w poz. 10),
+ale maksymalną wartość LOD otrzymałam obiema metodami w tej samej pozycji (20)
+   
